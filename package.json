@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel ./src/index.pug",
-    "build": "parcel build ./src/index.pug"
+    "build": "parcel build ./src/index.pug",
+    "prod": "parcel build ./src/index.pug -d build/ --public-url ./"
   },
   "keywords": [],
   "author": "",
